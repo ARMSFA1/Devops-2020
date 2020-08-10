@@ -43,7 +43,9 @@ At the beginning of this week I spoke with Faisal to identify some goals moving 
 
 I've been given of writing a powershell script. The script in question will be required to indentify if a computer has been idle for five or more minutes and then shut it down. This will then be deployed across our micro-machines. Talk about how you researched micro machines
 
-write about the code you have, what it does, how it works and what the display is. List out work still to do on the task/next step forward
+I created a goals sheet to discuss with my lecturer, Faisal. I've included a copy of it on this repository. It speaks into the wants that I have for this period of school, as well where I feel like my strengths lie.
+
+[goalsPreview.png]
 
 #### Week Three
 
