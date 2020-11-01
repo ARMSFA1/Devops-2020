@@ -73,8 +73,8 @@ Due to the shorter week, as a result of Labour Day, we weren't able to have out 
 
 Speaking personally, I was discussing the soltuion for Databases 3's migration being to create a azure SQL database which is then managed via docker. The main benefits of the Azure approach being in easier connections for students, onboard security and managed automatic backups as well as the consolodation of sources that we need to work with. Severless solutions was something that Faisal asked us to look into, I believe based on their reactive size in relation to the needs of the database. Thankfully, this is also covered with my solution.
 
-> ##### Azure: SQL Database. $8.50 monthly
-> Options for Severless, meaning size we'ee paying for is relative to our needs. For example, when we're using only 4MB on the database, I was only charged for 16MB of space.
+> ##### <ins>Azure</ins> SQL Database. $8.50 monthly
+> ##### <ins>Severless</ins> Size we'ee paying for is relative to our needs. For example, when we're using only 4MB on the database, I was only charged for 16MB of space.
 > ##### <ins>Security</ins> Azure Defender, Transparent data encrpytion
 > ##### <ins>Backups</ins> Are performed constantly and are stored for 30 days by default, but can be extended to up to ten years.
 > ##### <ins>Plan</ins> Dockoer container managing Azure SQL Database. Will be able to host all of Databases 3. Can connect via SQL Server login screen for SSMS bypassing previous puTTy requirements.
