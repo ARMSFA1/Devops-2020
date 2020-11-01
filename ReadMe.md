@@ -61,7 +61,34 @@ Additionally, I've spoken with my team mates in Devop's and made sure to let the
 
 ##### Summary
 
+The first week back from the holiday break, I was feeling keen to get back into it. Catching up with Bex and Jae, we had a quick discussion about what's happening with Databases, as we're needing to turn in work soon. After checking in with both Faisal and Rob, ensuring that everyone was good with what they were doing, I turned my focus back to scripting for the time being. 
+
+Talking with Faisal, he revealed to me that he wanted the Virtual Machines to be created within an already existing Reasource Group. This shifted a few things around, as I had previously written up branching options for if the user already had a Reasource Group or not. Ultimately, this will make the job a lot easier, as there's a lot less for me to have to worry about when working these up. 
+
+Unfortunately, I came down ill after the first day back, missing the remainder of inperson time. Due to a stomach bug, I was pretty exhausted for the rest of the week and ultimately, didn't end up getting as much done as I would have liked to. I kept in contact with my group during this time to make sure I knew what was happening, but my own output wasn't stellar. The group is currently creating a document listing out our current research, with myself focusing on automation.
+
 #### Week Twelve
+
+##### Summary
+
+For the first class of week twelve, I was still feeling too under the weather to come in, however I was a lot more lucid than previously. As I knew Rob was going to be asking my group what it was that we were doing and where we were at I created a write-up for my research as well as including footnotes at the bottom if they were asked anything related. 
+
+[messaging team sick]
+*This write up can be found on this github under, SickWriteup.docx
+
+On the following Tuesday we were required to submit a request to Faisal listing why we needed access to certain aspects of Azure. I was tasked with turning the few bullet points we had into a proper explination, while Jae focused on costs, Bex effectively orchastrating the thing as it was her that started the process. The culmination of this effort can be read on this github, under pleaForServices.docx
+
+Thursday we met with Faisal to discuss where we were at with our work so far. Despite being a bit of a mess of a meeting on our side, due to a lack of preperation, I personally believe that it went well. Getting a kick up the back side early on from Faisal is a heck of a lot nicer than messing up similarly in front of your client. It was pretty clear we needed to put more of a focus on this. 
+
+Rob had been chasing our group up for a summary of our plans moving forward. The basis for the document being the automation write-up I made previously as well as some notes Bex had taken during her work. I worked on this document, adding in a few of my own sections notably backups, the summary and turning everyone's notes into something semi-presentable. I'm really glad I got the summary position, as it meant I was able to really wrap my head around the scope of everything that's going on within the miniture group that had been created within Devops. Finally, I sent off the summary to Rob, letting him know that if he needed any further information to not hesitate to get in contact. Both the full document and the summary are located on this Github under suggestionsForDB23 and suggestionsForDB23Summary respectively.
+
+Over the weekend, I'd figured it was about time that I delve into the nuts and bolts of the process, especially now that we finally hard the permissions to do so. Installing Docker Desktop, I went through the process of learning how to create a container. The furthest I got in this process was just prior to assigning it to a database. Seeing the flaw in my planning, I moved on to arranging one of those istead. There were a few options for what we could use here, as far as my understanding went. While the other options did come with a lot more features, I couldn't really see us using the vast majority of them, not necesserily important enough to justify the massive increase in price-tag that came along with it, a difference of around eight-hundred a month. By sticking with Azure SQL Database, I was able to pretty quickly make up exactly what I was looking for in order to start getting some work done. 
+
+[dbAzureServerDetails.png]
+
+Rob asked us for a follow up meeting to discuss our summary, wanting to make sure we had sufficent solutions. I'm aiming to be able to discuss my solution properly, being able to rely on experience for what I've already done. 
+
+I'm expecting to start bugfixing the scripts I'm working on over the next few weeks, however, with the way things are going with the Databases project, it's definitely at the back of my mind currently as other things have much more urgency to their completion. 
 
 ##### Summary
 
@@ -102,4 +129,4 @@ As Bex required assistance with MariaDB and Jae, her partner for that work, was 
 
 ### Scripting
 
-### 
+### Communication
