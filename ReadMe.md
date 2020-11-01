@@ -119,6 +119,11 @@ After running into a minor roadblock with my creation VM, it dawned on me that I
 As Bex required assistance with MariaDB and Jae, her partner for that work, was unavilable I elected to step in. It was simply testing the ability to connect to MariaDB, login and then run a few simple scripts for creating a user, creating a database and then assigning it to the user in question. As to not spread our reasources too thin, I'm prioritizing this work at the moment, in order to ensure that this group project gets done in time. After installing KeePass, connecting to Kate and then trying to access the MariaDB server, I was repeatidly blocked off by a specific error. Despite looking for a soltuion to the problem, I instead decided to use a gateway server on Azure and connect to MariaDB from there. As I've confirmed access, my next moves will be to begin moving through the scripting requirements.
 [MariaDBLoginError.png]
 
+#### Week Thirteen
+
+##### Summary
+
+I tried gettign the scripting working but wasn't aware how to create a file on mysql in order to store a script. Team also confused. Ended up just creating databases and users manually. WRITE MORE HERE 
 ----------------
 
 ### Teamwork
