@@ -90,8 +90,6 @@ Rob asked us for a follow up meeting to discuss our summary, wanting to make sur
 
 I'm expecting to start bugfixing the scripts I'm working on over the next few weeks, however, with the way things are going with the Databases project, it's definitely at the back of my mind currently as other things have much more urgency to their completion. 
 
-##### Summary
-
 #### Week Thirteen
 
 ##### Summary
@@ -119,23 +117,22 @@ After running into a minor roadblock with my creation VM, it dawned on me that I
 As Bex required assistance with MariaDB and Jae, her partner for that work, was unavilable I elected to step in. It was simply testing the ability to connect to MariaDB, login and then run a few simple scripts for creating a user, creating a database and then assigning it to the user in question. As to not spread our reasources too thin, I'm prioritizing this work at the moment, in order to ensure that this group project gets done in time. After installing KeePass, connecting to Kate and then trying to access the MariaDB server, I was repeatidly blocked off by a specific error. Despite looking for a soltuion to the problem, I instead decided to use a gateway server on Azure and connect to MariaDB from there. As I've confirmed access, my next moves will be to begin moving through the scripting requirements.
 [MariaDBLoginError.png]
 
-#### Week Thirteen
+#### Week Fourteen
 
 ##### Summary
 
-I tried gettign the scripting working but wasn't aware how to create a file on mysql in order to store a script. Team also confused. Ended up just creating databases and users manually. WRITE MORE HERE 
+the MariaDB server that was created through Azure for testing purposes with our Databases 2 solution hadn't been used yet. After a bit of trouble shooting around gatewaying into it via the standard Kate server, I eventually imployed the use of a Azure gateway server which allowed me to get in easily enough. KeePass was the system used to store administrator passwords and such 
 
 Our meeting with Krissi was scheduled for 11:30am, I'd suggested previously that we arrive a few hours earlier in order to ensure that we had everything we needed and to get notes for the meeting written out. Accompanied by Rob, we went over our potential solutions with Krissi. The conversation we were able to get from her was incredibly helpful. As well as taking notes, with permission, the meeting was recorded. We talked about a time line for getting the transfer complete, as well as a trial period. Krissi elected to do a tiered transfer, meaning that she doesn't want both Databases 2 and 3 transfered at the same time, stating that it's "easier if there's only one thing to go wrong". Progress through Databases 2 is leaps and bounds ahead of Databases 3 currently, due to DB2 being a much more simple problem. Because of this, we decided that we would move forward with the DB2 transfer during semester 1, 2021 and potentially DB3 during semester 2, 2021. Krissi asked if it was possible to keep tunneling as a requirement for accessing the databases as it is very helpful as a teaching tool. We'll be able to implement this on the firewall, adding that students will need to first access a gateway server in order to access their databases. This is something that we've already done in the past with different reasources, meaning I'm very comfortable with it. 
 
 A benefit of a tiered deployment comes in the reduced numbers of student due to the Covid-19 pandemic. During lockdown, Krissi stated that around half of her first year students dropped out as a result of their complete unfamiliarity with BIT as well as the very small amount of in class time that they had before entering into level 3 and 4 lockdown. This means that next year, there will only be around 20 students doing Databases 2, as oppose to the regular number which otherwise hangs around 40. What this means for us is that Krissi would like this smaller bubble of students to act as a testing group as they move through their degree. The idea being that their smaller numbers will make the process a lot simpler as there's less opportunities for things to go wrong with less people using it. This could potentially mean pushing back the DB3 transfer to the start of 2021.
 
-BEX LEAVING, THE JOB SHE'S DONE, VOLUNTEERING TO DO IT NEXT SEMESTER WITH ROB
+During this semester, a classmate of mine, Bex (Rebekha Shinderman), has taken on the roll of being the line of communication between Rob and the rest of the Operations group. This has taken the form of posting jobs up on to our Teams group, sharing announcements with everyone as well as reporting back to Rob about various things. As she's expected to graduate at the end of this semester Rob has been talking about needing to find a replacement for next semester. While initially passing on the idea, I later put a bit more thought into the subject. During this semester I've felt 'out of the loop' to a degree. It's not always easy to know what's happening or who's doing what, something that was magnified by being seated away from the rest of the operations group due to the lack of desk space. Despite considering myself as someone with strong language skills, it's not something that I've ever been able to put a focus on in my education with the exception of the meager amount of presentations and speeches we were required to do during my prior years. As next semester will be my last opportunity, I think it'd be really good for me to take on this extra workload.
+
 [askingRobAboutBexsJob.png]
 
 elastic pools vs VM's vs Databases 
 ----------------
-
-### Databases
 
 ### AWS
 TALK ABOUT WHAT AWS IS 
@@ -156,8 +153,6 @@ DISCUSS PERMISSIONS AND DIFFICULTY OF WORKING AROUND THAT
 TALK ABOUT WHAT I'VE USED AZURE FOR, VM'S, DATABASES, NSG, MARIADB. CONNECTIONS, SSH RPD
 
 TALK ABOUT BENEFITS AND DOWNSIDES OF AZURE. DON'T HAVE TO TUNNEL IN TO CONNECT AND ISSUES WITH SUPPLY AND COST COMPARED TO A VM, AS AN EXAMPLE.
-
-
 
 ### Scripting
 TALK ABOUT APPROACH TO SCRIPTING (IT'S IN YOUR FOLIO)
@@ -180,3 +175,24 @@ TALK ABOUT BENEFIT OF TALKING DIRECTLY OVER TEAMS
 TALK ABOUT IMPORTANCE OF MEETINGS
 
 TALK ABOUT IMPORTANCE OF REGULAR STAND-UP MEETINGS WITHIN YOUR GROUP DOING DB
+
+### Databases
+TALK ABOUT THE INITIAL TASK GIVEN, HOW IT WAS SHOWN TO YOU BY BEX AND YOU ACCEPTED AS YOU WERE OTHERWISE STUCK PURELY DOING SCRIPTING AND WANTED EXPERIENCE WORKING WITH A GROUP AND AN EXTERNAL CLIENT I.E NOT FAISAL 
+
+TALK ABOUT WHAT THE PROBLEM WAS
+
+TALK ABOUT THE OVER ALL PLAN, TRANSFER THIS THIS SEMESTER BECAUSE OF THIS, DB3 LATER BECAUSE OF BUBBLE ETC
+
+TALK ABOUT WHAT IT IS THAT I WAS FOCUSED ON PRIMARILY
+
+DISCUSS THE IMPORTANCE OF MEETINGS DURING THIS TIME AND NOTE TAKING
+
+TALK ABOUT WHAT THE PLAN MOVING FORWARD FOR NEXT SEMESTER IS
+
+INCLUDE PRICING OPTIONS HERE'S A TABLE TO PUT THEM IN MAYBE
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
