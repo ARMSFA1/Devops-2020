@@ -73,7 +73,7 @@ Unfortunately, I came down ill after the first day back, missing the remainder o
 
 For the first class of week twelve, I was still feeling too under the weather to come in, however I was a lot more lucid than previously. As I knew Rob was going to be asking my group what it was that we were doing and where we were at I created a write-up for my research as well as including footnotes at the bottom if they were asked anything related. 
 
-[messaging team sick]
+[MessagingTeamSick]
 *This write up can be found on this github under, SickWriteup.docx
 
 On the following Tuesday we were required to submit a request to Faisal listing why we needed access to certain aspects of Azure. I was tasked with turning the few bullet points we had into a proper explination, while Jae focused on costs, Bex effectively orchastrating the thing as it was her that started the process. The culmination of this effort can be read on this github, under pleaForServices.docx
@@ -124,14 +124,59 @@ As Bex required assistance with MariaDB and Jae, her partner for that work, was 
 ##### Summary
 
 I tried gettign the scripting working but wasn't aware how to create a file on mysql in order to store a script. Team also confused. Ended up just creating databases and users manually. WRITE MORE HERE 
-----------------
 
-### Teamwork
+Our meeting with Krissi was scheduled for 11:30am, I'd suggested previously that we arrive a few hours earlier in order to ensure that we had everything we needed and to get notes for the meeting written out. Accompanied by Rob, we went over our potential solutions with Krissi. The conversation we were able to get from her was incredibly helpful. As well as taking notes, with permission, the meeting was recorded. We talked about a time line for getting the transfer complete, as well as a trial period. Krissi elected to do a tiered transfer, meaning that she doesn't want both Databases 2 and 3 transfered at the same time, stating that it's "easier if there's only one thing to go wrong". Progress through Databases 2 is leaps and bounds ahead of Databases 3 currently, due to DB2 being a much more simple problem. Because of this, we decided that we would move forward with the DB2 transfer during semester 1, 2021 and potentially DB3 during semester 2, 2021. Krissi asked if it was possible to keep tunneling as a requirement for accessing the databases as it is very helpful as a teaching tool. We'll be able to implement this on the firewall, adding that students will need to first access a gateway server in order to access their databases. This is something that we've already done in the past with different reasources, meaning I'm very comfortable with it. 
+
+A benefit of a tiered deployment comes in the reduced numbers of student due to the Covid-19 pandemic. During lockdown, Krissi stated that around half of her first year students dropped out as a result of their complete unfamiliarity with BIT as well as the very small amount of in class time that they had before entering into level 3 and 4 lockdown. This means that next year, there will only be around 20 students doing Databases 2, as oppose to the regular number which otherwise hangs around 40. What this means for us is that Krissi would like this smaller bubble of students to act as a testing group as they move through their degree. The idea being that their smaller numbers will make the process a lot simpler as there's less opportunities for things to go wrong with less people using it. This could potentially mean pushing back the DB3 transfer to the start of 2021.
+
+BEX LEAVING, THE JOB SHE'S DONE, VOLUNTEERING TO DO IT NEXT SEMESTER WITH ROB
+[askingRobAboutBexsJob.png]
+
+elastic pools vs VM's vs Databases 
+----------------
 
 ### Databases
 
+### AWS
+TALK ABOUT WHAT AWS IS 
+
+TALK ABOUT HOW IT WAS HEAVILY PUSHED EARLY
+
+TALK ABOUT HOW AT START OF SEMESTER THERE WAS LITTLE OBVIOUS TO DO AS DEVOP'S IS FUNDAMENTALLY REACTIONARY
+
+TALK ABOUT DOING THE AWS LABS AND SHIT BUT DECIDING NOT TO DO THE CERTIFICATION BASED
+
 ### Azure
+TALK ABOUT WHAT AZURE IS 
+
+TALK ABOUT HOW IT'S BENEFIT OF CONSOLODATING REASOURCES
+
+DISCUSS PERMISSIONS AND DIFFICULTY OF WORKING AROUND THAT
+
+TALK ABOUT WHAT I'VE USED AZURE FOR, VM'S, DATABASES, NSG, MARIADB. CONNECTIONS, SSH RPD
+
+TALK ABOUT BENEFITS AND DOWNSIDES OF AZURE. DON'T HAVE TO TUNNEL IN TO CONNECT AND ISSUES WITH SUPPLY AND COST COMPARED TO A VM, AS AN EXAMPLE.
+
+
 
 ### Scripting
+TALK ABOUT APPROACH TO SCRIPTING (IT'S IN YOUR FOLIO)
+
+TALK ABOUT SCRIPT TASKS GIVEN
+
+TALK ABOUT WORK DONE ON TIME OUT SCRIPT
+
+TALK ABOUT WORK DONE ON CREATION AND DELETION(?)
+
+DISCUSS HOW THEY WERE PUSHED TO THE BACK SIDE BY OTHER PROJECTS
 
 ### Communication
+TALK ABOUT COMMUNICATION OVER TEAMS AND DIFFICULTY OF KNOWING WHAT WE SHOULD BE DOING
+
+TALK ABOUT HOW THE CERTAIN JOBS JUST DON'T GET DONE
+
+TALK ABOUT BENEFIT OF TALKING DIRECTLY OVER TEAMS
+
+TALK ABOUT IMPORTANCE OF MEETINGS
+
+TALK ABOUT IMPORTANCE OF REGULAR STAND-UP MEETINGS WITHIN YOUR GROUP DOING DB
