@@ -64,10 +64,15 @@ Additionally, I've spoken with my team mates in Devop's and made sure to let the
 Meeting with Krissi is really the main thing that has to happen before work can begin. As was instilled in me by my time with Software Engineering, you should only be doing what the client has asked for. Without being able to nail out the details, we'd likely end up going in a direction that, while making sense to us, is wildly different to Krissi's actually requirements. Meeting in D315, the focus was on asking the right questions. In preperation, we'd discussed questions that we would need to ask her, which are as such;
 
 > *What resources do you use for db2? What about db3?*
+>
 > *Is the current setup working for you, could anything be better?*
+>
 > *Do you plan on teaching MySQL in future iterations of db2?*
+>
 > *Do you plan on using docker in the future for db3?*
+>
 > *Is there any changes to your teaching you have planned?*
+>
 > *Is there anything infrastructure wise that would make teaching easier?*
 
 Ultimately, we're not going into this task with the goal of changing everything. If things are currently working, there's little need to change that. If Krissi doesn't have any major complaints with the way things are going currently, then our goal shifts to replicating the current system while utilizing Azure. Due to my personal experience, having done both Databases classes with Krissi, I suspect that her answers will go down this line. As she's never expressed any disatisfaction with the systems in the past. 
@@ -80,34 +85,34 @@ With permission, the meeting with Krissi was recorded and is available on this g
 > Databases 2 will require a temporary server that will be used for only a single week. This server will be used in order to teach security concepts. As students are given elevated permissions, there's a potential risk to keep in mind around back-ups. 
 
 > Sudo access is currently required for Krissi, Rob and whoever may be assisting Krissi in teaching the class.
-
+>
 > Docker will need to be used for DB3 as it's the focus of the latter end of the class. 
-
+>
 > Limitations of DB3; Database and SQL Server Management Studio must have matching versions. SQL Server Management Studio is not availbe on Macintosh computers.
-
+>
 > Students are currently connecting to their container through tunnelling. 
-
+>
 > Currently Krissi utilizies Github Classroom, something which she finds to be beneficial. Any solutions that we design will require GitHub integration. 
-
+>
 > There's a problem with students accidentally over using reasources. Storage space is a primary driver of cost, implementing a policy to limit users maximum data size may be needed.
-
+>
 > Downtime needs to be minimal. During the school period, March through November, students will require access to their databases constantly, as such the solution we implement will need to have this considered. 
-
+>
 > Password policies will need to be enforced. A lot of students will simply use their username or the Polytechnic standard P@ssw0rd for their database password if left unchecked. The risk here being that any malcious user would be able to create huge costs for the BIT.
-
+>
 > Cost needs to be kept to a minimum. The current infrastructure is currently on the way out for exactly this issue. 
-
+>
 > While a "Lift and Shift" solution is definitely possible, it's expensive and would be ideally avoided.
 
 ##### Action Points
 > Investigate an Azure solution with git integration.
-
+>
 > Investigate alternative to SQL Server Management Studio.
-
+>
 > Investigate MySQL and SQL solutions within Azure.
-
+>
 > Investigate Docker Containers within Azure.
-
+>
 > Research into how a password policy could best be implemented.
 
 #### Week Eleven
