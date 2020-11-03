@@ -74,7 +74,7 @@ Ultimately, we're not going into this task with the goal of changing everything.
 
 With permission, the meeting with Krissi was recorded and is available on this github under the title "Meeting with Krissi Week Ten" *approx 18 minutes.*
 
-LITERALLY JUST SUMMARY
+
 
 #### Week Eleven
 
