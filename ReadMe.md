@@ -57,6 +57,25 @@ I will need to host a VM to continue my work, as there's currently too much gues
 
 Additionally, I've spoken with my team mates in Devop's and made sure to let them know that if they have any scripting needs moving forward to please get in contact with me, as more often than not, I expect I won't have any specific singular job that I am working towards.
 
+#### Week Ten
+
+##### Summary
+
+Meeting with Krissi is really the main thing that has to happen before work can begin. As was instilled in me by my time with Software Engineering, you should only be doing what the client has asked for. Without being able to nail out the details, we'd likely end up going in a direction that, while making sense to us, is wildly different to Krissi's actually requirements. Meeting in D315, the focus was on asking the right questions. In preperation, we'd discussed questions that we would need to ask her, which are as such;
+
+> *What resources do you use for db2? What about db3?*
+> *Is the current setup working for you, could anything be better?*
+> *Do you plan on teaching MySQL in future iterations of db2?*
+> *Do you plan on using docker in the future for db3?*
+> *Is there any changes to your teaching you have planned?*
+> *Is there anything infrastructure wise that would make teaching easier?*
+
+Ultimately, we're not going into this task with the goal of changing everything. If things are currently working, there's little need to change that. If Krissi doesn't have any major complaints with the way things are going currently, then our goal shifts to replicating the current system while utilizing Azure. Due to my personal experience, having done both Databases classes with Krissi, I suspect that her answers will go down this line. As she's never expressed any disatisfaction with the systems in the past. 
+
+With permission, the meeting with Krissi was recorded and is available on this github under the title "Meeting with Krissi Week Ten" *approx 18 minutes.*
+
+LITERALLY JUST SUMMARY
+
 #### Week Eleven
 
 ##### Summary
