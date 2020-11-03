@@ -10,12 +10,15 @@ ______________________
 ##### Summary
 After listing to the presentation by the various lecturers, I ended up settling on the Devop's group. The primary reason for this being how it relates to my previous course work. I've completed Linux and Security classes in the past, am currently working my way through an Operations Engineering Paper and am hoping to do System Administration in the future. As a result of this, I thought it would be the group that would allow me to best focus my skills into something that's applicable to the work force, which I will be entering into as a trained professional next year.
 
+Talk about making this repository and how you want to be regularly putting information into it as it allows you to access your work files from anywhere if you store them here. General jerk off about how much I love github and the importance of keeping up to date with my work.
 
 #### Week Two
 
 ##### Summary
 
 On Friday I was rostered on to check on the D312 PC kits. This cabling up each of the sixteen PC's, booting them up, checking the ability to login and making sure there was internet access. During this task, I was recording my results, listing the time each PC was checked, the issue, if there is one, and whatever solution I used to solve this issue. The few issues that I couldn't figure out I detailed and informed Rob of. A copy of the report that I compiled can be found within this repository. In total this took a little over two and a half hours. I then took the form that I created and cleared out my input, leaving only the template I created and uploaded it to the Devop's Team's group so others can use it, ensuring we keep the same format.
+
+The D312 report and template have been included on this GitHub, under the title "d312 checklest 31st 07" and "d312 checklist Template" respectedly. 
 
 ##### Tutorial Task
 
@@ -33,7 +36,7 @@ Having finally gained access to my AWS (Amazon Web Services) account, I was able
 > [atom.png]
 > Atom is a relatively unique text editor. It functions similar to a Visual Studio Code, as upon opening a folder you're able to easily navigate between subfolders. Atom's default packages can apply syntax highlighting for various programming languages and file formats, with more being available through additional packages, of note in this selection are; PHP, JSON, C/++/#, Ruby and SQL.
 
-#### Week Two
+#### Week Three
 
 ##### Summary
 
@@ -45,17 +48,82 @@ I've been given of writing a powershell script. The script in question will be r
 
 I created a goals sheet to discuss with my lecturer, Faisal. I've included a copy of it on this repository. It speaks into the wants that I have for this period of school, as well where I feel like my strengths lie.
 
-[goalsPreview.png]
+[devopsPlanning.jpg] 
+discuss the file, give extended thoughts on each section
 
-#### Week Three
+AWS Cerfication
+
+Scripting
+
+Operations
+
+#### Week Four
 
 ##### Summary
 
 I've begun work on my idle script. Currently, it's only been tested on the one PC but seems to be completely operational. In it's testing phase, it fires off ten tests at random intervials apart (1-10 seconds), which then list the last time and date that a user interacted with the system and then in turn how long it's been since then, going as precise as seconds. When detecting that the idle time has elapsed a specifific time value since being in use, it will then shut down. The struggle for this moving forward will be to work out how effective this is on a long term basis and if it will incorrectly shutdown the VM's it's supposed to work on. 
 
+[ PUT A PICTURE OF THE SCRIPT RUNNING AND SHIT]
+
 I will need to host a VM to continue my work, as there's currently too much guessing work at the current level to be doing anything effective.
 
 Additionally, I've spoken with my team mates in Devop's and made sure to let them know that if they have any scripting needs moving forward to please get in contact with me, as more often than not, I expect I won't have any specific singular job that I am working towards.
+[informing faisal]
+talk about pic
+
+micro-machines!
+
+#### Week Five
+
+##### Summary
+
+https://www.odt.co.nz/news/national/covid-back-lockdown-auckland-level-2-rest-nz COVID HAPPENED 
+
+
+
+#### Week Six
+
+##### Summary
+
+Azure Acc Disabled limiting what I can do. Discuss how I talked with other team members to figure out an option before getting in contact with Faisal and Rob, Rob wasn't sure, Faisal said he'd add me to what he needed to in order for my work to continue
+
+[messagingRobAzure]
+
+entire first and second classes were trying to solve this issue, eventually found out I Bex and myself needed to be added to the resource group by Faisal
+
+Talk about what I learned from this situation. Importance of testing out permissions as soon as you can, how you need to ensure that everyone you're responsible for is set-up
+
+#### Week Seven
+
+##### Summary
+
+First VM Azure
+
+had trouble knowing which resource group to use
+
+since deleted unfortunately
+
+#### Week Eight
+
+##### Summary
+
+accidentally left VM on during weekend break.
+
+[leftVMOn.pmg]
+
+Chcked D312 on friday
+
+The D312 report has been included on this GitHub, under the title "d312 checklist september 11th"
+
+[discussingD312.png]
+
+
+
+#### Week Nine
+
+on monday I was ill worked from home on ??? research for db3? signed up for 
+
+##### Summary
 
 #### Week Ten
 
@@ -81,9 +149,9 @@ With permission, the meeting with Krissi was recorded and is available on this g
 
 ##### Notes
 > Krissi is currently not intending to make any major changes to her teaching moving into 2020. Additionally, she's also content with the current infrastructure set-up. The takeway from this is that our goal will be to emulate her current set-up as well as we're able within the services that Azure offers. 
-
+>
 > Databases 2 will require a temporary server that will be used for only a single week. This server will be used in order to teach security concepts. As students are given elevated permissions, there's a potential risk to keep in mind around back-ups. 
-
+>
 > Sudo access is currently required for Krissi, Rob and whoever may be assisting Krissi in teaching the class.
 >
 > Docker will need to be used for DB3 as it's the focus of the latter end of the class. 
@@ -114,6 +182,9 @@ With permission, the meeting with Krissi was recorded and is available on this g
 > Investigate Docker Containers within Azure.
 >
 > Research into how a password policy could best be implemented.
+
+TRY AND FIGURE OUT WHAT YOU GOT UP TO ON THURSDAY
+IT WAS PROBABLY SCRIPTING JUST WRITE ABOUT SCRIPTING
 
 #### Week Eleven
 
@@ -179,11 +250,19 @@ As Bex required assistance with MariaDB and Jae, her partner for that work, was 
 
 ##### Summary
 
-the MariaDB server that was created through Azure for testing purposes with our Databases 2 solution hadn't been used yet. After a bit of trouble shooting around gatewaying into it via the standard Kate server, I eventually imployed the use of a Azure gateway server which allowed me to get in easily enough. KeePass was the system used to store administrator passwords and such 
+the MariaDB server that was created through Azure for testing purposes with our Databases 2 solution hadn't been used yet. After a bit of trouble shooting around gatewaying into it via the standard Kate server, I eventually imployed the use of a Azure gateway server which allowed me to get in easily enough. KeePass was the system used to store administrator passwords and such. COMMANDS YOU DID, SCRIPTING DIDN'T WORK, TALKED WITH ROB, HE WASN'T SURE, SOMETHING TO LOOK INTO.
+
+SCREENSHOTS OF COMMANDS ON MYSQL GOING OFF
+
+TALK ABOUT KEEPASS AND WHAT IT IS. NOT CONNECTED TO THE INTERNET AND BLOCKED BY YOUR FIREWALL, BY THE TIME A HACKER WAS ABLE TO GET ACCESS TO IT THEY WOULD HAVE TO HAVE CONTROL OF BASICALLY EVERYTHING ELSE OR BE STANDING OVER YOUR SHOULDER. 
+
+PICTURE OF KEEPASS
 
 Our meeting with Krissi was scheduled for 11:30am, I'd suggested previously that we arrive a few hours earlier in order to ensure that we had everything we needed and to get notes for the meeting written out. Accompanied by Rob, we went over our potential solutions with Krissi. The conversation we were able to get from her was incredibly helpful. As well as taking notes, with permission, the meeting was recorded. We talked about a time line for getting the transfer complete, as well as a trial period. Krissi elected to do a tiered transfer, meaning that she doesn't want both Databases 2 and 3 transfered at the same time, stating that it's "easier if there's only one thing to go wrong". Progress through Databases 2 is leaps and bounds ahead of Databases 3 currently, due to DB2 being a much more simple problem. Because of this, we decided that we would move forward with the DB2 transfer during semester 1, 2021 and potentially DB3 during semester 2, 2021. Krissi asked if it was possible to keep tunneling as a requirement for accessing the databases as it is very helpful as a teaching tool. We'll be able to implement this on the firewall, adding that students will need to first access a gateway server in order to access their databases. This is something that we've already done in the past with different reasources, meaning I'm very comfortable with it. 
 
 A benefit of a tiered deployment comes in the reduced numbers of student due to the Covid-19 pandemic. During lockdown, Krissi stated that around half of her first year students dropped out as a result of their complete unfamiliarity with BIT as well as the very small amount of in class time that they had before entering into level 3 and 4 lockdown. This means that next year, there will only be around 20 students doing Databases 2, as oppose to the regular number which otherwise hangs around 40. What this means for us is that Krissi would like this smaller bubble of students to act as a testing group as they move through their degree. The idea being that their smaller numbers will make the process a lot simpler as there's less opportunities for things to go wrong with less people using it. This could potentially mean pushing back the DB3 transfer to the start of 2021.
+
+With permission, the meeting with Krissi was recorded and is available on this github under the title "Meeting with Krissi Week Fourteen" *approx 16:48 minutes.*
 
 During this semester, a classmate of mine, Bex (Rebekha Shinderman), has taken on the roll of being the line of communication between Rob and the rest of the Operations group. This has taken the form of posting jobs up on to our Teams group, sharing announcements with everyone as well as reporting back to Rob about various things. As she's expected to graduate at the end of this semester Rob has been talking about needing to find a replacement for next semester. While initially passing on the idea, I later put a bit more thought into the subject. During this semester I've felt 'out of the loop' to a degree. It's not always easy to know what's happening or who's doing what, something that was magnified by being seated away from the rest of the operations group due to the lack of desk space. Despite considering myself as someone with strong language skills, it's not something that I've ever been able to put a focus on in my education with the exception of the meager amount of presentations and speeches we were required to do during my prior years. As next semester will be my last opportunity, I think it'd be really good for me to take on this extra workload.
 
@@ -254,3 +333,10 @@ INCLUDE PRICING OPTIONS HERE'S A TABLE TO PUT THEM IN MAYBE
 | col 1 is |  left-aligned | $1600 |
 | col 2 is |    centered   |   $12 |
 | col 3 is | right-aligned |    $1 |
+
+### Covid-19
+COVID. TALK ABOUT SECOND WAVE AND THE PUBLIC ANNOUNCEMENTS WE WERE GIVEN
+
+TALK ABOUT HOW YOU WERE GLAD YOU WERE USING AZURE DURING THE SECOND COVID SCARE AS IT MEANT YOU COULD POTENTIALLY WORK FROM HOME
+
+TALK ABOUT WHAT YOU DID TO PREPARE FOR A POTENTIAL LOCKDOWN 
