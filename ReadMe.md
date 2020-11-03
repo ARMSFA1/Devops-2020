@@ -76,23 +76,38 @@ With permission, the meeting with Krissi was recorded and is available on this g
 
 ##### Notes
 > Krissi is currently not intending to make any major changes to her teaching moving into 2020. Additionally, she's also content with the current infrastructure set-up. The takeway from this is that our goal will be to emulate her current set-up as well as we're able within the services that Azure offers. 
+
 > Databases 2 will require a temporary server that will be used for only a single week. This server will be used in order to teach security concepts. As students are given elevated permissions, there's a potential risk to keep in mind around back-ups. 
+
 > Sudo access is currently required for Krissi, Rob and whoever may be assisting Krissi in teaching the class.
+
 > Docker will need to be used for DB3 as it's the focus of the latter end of the class. 
+
 > Limitations of DB3; Database and SQL Server Management Studio must have matching versions. SQL Server Management Studio is not availbe on Macintosh computers.
+
 > Students are currently connecting to their container through tunnelling. 
+
 > Currently Krissi utilizies Github Classroom, something which she finds to be beneficial. Any solutions that we design will require GitHub integration. 
+
 > There's a problem with students accidentally over using reasources. Storage space is a primary driver of cost, implementing a policy to limit users maximum data size may be needed.
+
 > Downtime needs to be minimal. During the school period, March through November, students will require access to their databases constantly, as such the solution we implement will need to have this considered. 
+
 > Password policies will need to be enforced. A lot of students will simply use their username or the Polytechnic standard P@ssw0rd for their database password if left unchecked. The risk here being that any malcious user would be able to create huge costs for the BIT.
+
 > Cost needs to be kept to a minimum. The current infrastructure is currently on the way out for exactly this issue. 
+
 > While a "Lift and Shift" solution is definitely possible, it's expensive and would be ideally avoided.
 
 ##### Action Points
 > Investigate an Azure solution with git integration.
+
 > Investigate alternative to SQL Server Management Studio.
+
 > Investigate MySQL and SQL solutions within Azure.
+
 > Investigate Docker Containers within Azure.
+
 > Research into how a password policy could best be implemented.
 
 #### Week Eleven
