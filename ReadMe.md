@@ -1,36 +1,7 @@
 # Devop's Portfolio - 2020
 #### Finn Armstrong-McAllister
-[Github Repo], 
+[One](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-one), [Two](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-two), [Three](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-three), [Four](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-four), [Five](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-five), [Six](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-six), [Seven](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-seven), [Eight](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-eight), [Nine](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-nine), [Ten](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-three), [Eleven](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-ten), [Twelve](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-twelve), [Thriteen](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-thirteen), [Fourteen](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-fourteen), [AWS](https://www.google.com), [Azure](https://www.google.com), [Scripting](https://www.google.com), [Communication](https://www.google.com), [Databases](https://www.google.com), [Reflection](https://www.google.com), 
 
-## Index
-> Week One
->
-> Week Two
->
-> Week Three
->
-> Week Four
->
-> Week Five
->
-> Week Six
->
-> Week Seven
->
-> Week Eight
->
-> Week Nine
->
-> Week Ten
->
-> Week Eleven
->
-> Week Twelve
->
-> Week Thirteen
->
-> Week Fourteen
->
 > AWS
 >
 > Azure
