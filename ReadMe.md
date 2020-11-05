@@ -273,7 +273,10 @@ During this semester, a classmate of mine, Bex (Rebekha Shinderman), has taken o
 
 [askingRobAboutBexsJob.png]
 
-elastic pools vs VM's vs Databases 
+TALK ABOUT TALK WITH THE SECURITY GUY, FIND OUT WHAT HIS NAME WAS.
+
+I spoke with Rob on Thursday in regards to taking on the liason position between himself and the rest of the ops group. We discussed why I wanted to do the job, the strengths I thought I brought as well as the tasks that will be required of next year. After a brief ten minutes, I was told that the position was mine. I'll be moving to get Bex's reasources that she used, as well as discussing everything involved with the job over the next few weeks, but definitely after portfolio deadline.
+
 ----------------
 
 ### AWS
@@ -332,6 +335,8 @@ DISCUSS THE IMPORTANCE OF MEETINGS DURING THIS TIME AND NOTE TAKING
 TALK ABOUT WHAT THE PLAN MOVING FORWARD FOR NEXT SEMESTER IS
 
 INCLUDE PRICING OPTIONS HERE'S A TABLE TO PUT THEM IN MAYBE
+
+elastic pools vs VM's vs Databases 
 
 | Tables   |      Are      |  Cool |
 |----------|:-------------:|------:|
