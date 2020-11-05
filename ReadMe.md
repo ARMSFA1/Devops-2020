@@ -2,7 +2,46 @@
 #### Finn Armstrong-McAllister
 [Github Repo], 
 
-
+## Index
+> Week One
+>
+> Week Two
+>
+> Week Three
+>
+> Week Four
+>
+> Week Five
+>
+> Week Six
+>
+> Week Seven
+>
+> Week Eight
+>
+> Week Nine
+>
+> Week Ten
+>
+> Week Eleven
+>
+> Week Twwelve
+>
+> Week Thirteen
+>
+> Week Fourteen
+>
+> AWS
+>
+> Azure
+>
+> Scripting
+>
+> Communication
+>
+> Databases
+>
+> Reflection
 ______________________
 
 #### Week One
@@ -340,3 +379,9 @@ COVID. TALK ABOUT SECOND WAVE AND THE PUBLIC ANNOUNCEMENTS WE WERE GIVEN
 TALK ABOUT HOW YOU WERE GLAD YOU WERE USING AZURE DURING THE SECOND COVID SCARE AS IT MEANT YOU COULD POTENTIALLY WORK FROM HOME
 
 TALK ABOUT WHAT YOU DID TO PREPARE FOR A POTENTIAL LOCKDOWN 
+
+----------------
+
+## Reflection
+
+reflect on the semester, what worked, what didn't, if you'll do devops again, etc
