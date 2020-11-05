@@ -351,3 +351,5 @@ TALK ABOUT WHAT YOU DID TO PREPARE FOR A POTENTIAL LOCKDOWN
 ## Reflection
 
 reflect on the semester, what worked, what didn't, if you'll do devops again, etc
+
+ <a href="#top">Back to top</a>
