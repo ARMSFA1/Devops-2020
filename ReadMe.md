@@ -1,18 +1,12 @@
 # Devop's Portfolio - 2020
 #### Finn Armstrong-McAllister
-[One](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-one), [Two](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-two), [Three](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-three), [Four](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-four), [Five](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-five), [Six](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-six), [Seven](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-seven), [Eight](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-eight), [Nine](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-nine), [Ten](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-three), [Eleven](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-ten), [Twelve](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-twelve), [Thriteen](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-thirteen), [Fourteen](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-fourteen), [AWS](https://www.google.com), [Azure](https://www.google.com), [Scripting](https://www.google.com), [Communication](https://www.google.com), [Databases](https://www.google.com), [Reflection](https://www.google.com), 
+[One](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-one), [Two](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-two), [Three](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-three), [Four](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-four), [Five](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-five), [Six](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-six), [Seven](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-seven), [Eight](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-eight), [Nine](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-nine), [Ten](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-three), [Eleven](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-ten), [Twelve](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-twelve), [Thriteen](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-thirteen), [Fourteen](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#week-fourteen)
 
-> AWS
->
-> Azure
->
-> Scripting
->
-> Communication
->
-> Databases
->
-> Reflection
+[AWS](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#aws), [Azure](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#azure), [Scripting](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#scripting), [Communication](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#communication), [Databases](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#databases), [Covid-19](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#covid-19)
+
+[Reflection](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#reflection)
+
+
 ______________________
 
 #### Week One
