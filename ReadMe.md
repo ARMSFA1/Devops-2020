@@ -222,8 +222,9 @@ With permission, the meeting with Krissi was recorded and is available on this g
 >
 > Research into how a password policy could best be implemented.
 
-TRY AND FIGURE OUT WHAT YOU GOT UP TO ON THURSDAY
-IT WAS PROBABLY SCRIPTING JUST WRITE ABOUT SCRIPTING
+I wanted to make some progress on my Creation VM project during this Friday, as it was the first time in awhile that I had a free day. As Faisal has said that this script will be used with the new students coming in to create their Virtual Machines, I want to try and make it hold the users hand as much as possible when going through. As a reflection of this, I've added in constant confirmation points into the script. After inputting a value, the user will be asked to confirm it. This works in conjunction with a final screen that show's all of the data that the user has entered with the ability to change any of it before creation. Currently, one of the biggest problems I'm running into is the complication around reasource groups. As I can't be sure whether the user will already have a reasource group or not, I need to implement responses for both options, which means the automated creation of reasource groups. I'm hesitant, to a degree, around going too far with this currently, as I have no idea what kind of permissions will be given to the students which could drastically alter how this works out. Additions made can be found [Here.](https://github.com/ARMSFA1/Devops-2020/commit/0bb44a0a4b030f7f7163088ee460b5bbea83d929#diff-7064b7ddfab010fe6664a13613fa50bef5d7504a9f4d11110429568cb2d95b67)
+
+Ultimately, I'm relatively content with how this has been going so far, however there are still a series of questions that I'll need to have with my client, Faisal, in order to get everything sorted out. For the time being, however, it's not my priority, as the database transfer is definitely more urgent of a project. Worse case scenario if I don't finish the scripting in time it is significantly better than the worse case scenario for Databases. 
 
 #### Week Eleven
 
