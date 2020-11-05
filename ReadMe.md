@@ -25,7 +25,7 @@
 >
 > Week Eleven
 >
-> Week Twwelve
+> Week Twelve
 >
 > Week Thirteen
 >
