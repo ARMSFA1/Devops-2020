@@ -14,7 +14,9 @@ ______________________
 ##### Summary
 After listing to the presentation by the various lecturers, I ended up settling on the Devop's group. The primary reason for this being how it relates to my previous course work. I've completed Linux and Security classes in the past, am currently working my way through an Operations Engineering Paper and am hoping to do System Administration in the future. As a result of this, I thought it would be the group that would allow me to best focus my skills into something that's applicable to the work force, which I will be entering into as a trained professional next year.
 
-Talk about making this repository and how you want to be regularly putting information into it as it allows you to access your work files from anywhere if you store them here. General jerk off about how much I love github and the importance of keeping up to date with my work.
+I decided to get a headstart and create this repository now. After my past experiences with Software Engineering, I've had the importance of regularly logging your work drilled into my head. My hope starting this so early is that I'll be able to continuously use it in order to an appropriate level of material to reference come end of semester. Additionally, storing my work files here will have the side effect of allowing me to access them from home. 
+
+From the offset, I know very few people within the Devops group. Aside from a few faces across my earlier classes this is essentially a new area that I'm going into. I've intentionally limited myself into a field away from my usual friend circle, with the hope that I'll be able to expose myself to a series of new ideas and ways of thinking. 
 
 #### Week Two
 
@@ -24,6 +26,7 @@ On Friday I was rostered on to check on the D312 PC kits. This cabling up each o
 
 The D312 report and template have been included on this GitHub, under the title "d312 checklest 31st 07" and "d312 checklist Template" respectedly. 
 
+This was my first time working with Rob, someone who I'd previously only seen around campus on occasion. From my understanding, he's relied upon by a great deal of teachers for a lot of their servers and maintainance. Seeing as, in the future, I'd like to get away from focusing on software engineering, I think it would be wise to keep in regular contact with him as he actively works within a field that I'm very interested into entering. 
 ##### Tutorial Task
 
 Having finally gained access to my AWS (Amazon Web Services) account, I was able to begin the [tutorial](https://aws.amazon.com/getting-started/projects/break-monolith-app-microservices-ecs-docker-ec2/module-one/) given to us by Faisal to gain a basic understanding of the kind of work that we will be doing in Devops. The main timesink of the project, in my experience, was getting all of the required software working. 
