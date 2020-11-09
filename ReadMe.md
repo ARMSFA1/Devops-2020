@@ -353,9 +353,9 @@ elastic pools vs VM's vs Databases
 ### Covid-19
 COVID. TALK ABOUT SECOND WAVE AND THE PUBLIC ANNOUNCEMENTS WE WERE GIVEN
 
-TALK ABOUT HOW YOU WERE GLAD YOU WERE USING AZURE DURING THE SECOND COVID SCARE AS IT MEANT YOU COULD POTENTIALLY WORK FROM HOME
+Opposed to the earlier Covid-19 lockdown we'd had in the year, I was a lot more relaxed about the notion on having to work from home. Due to our focus on cloud based computing this semester I knew that all the resources I'd need to work were already readily available to me. I'd be able to create a virtual machine and test my scripts from home, meetings could be done over Zoom and tickets would go as normal. Thankfully, of course, it didn't end up happening. However, I was considerably more aware of the possibility and what it would mean for us going forward than I had been in the past. 
 
-TALK ABOUT WHAT YOU DID TO PREPARE FOR A POTENTIAL LOCKDOWN 
+In preperation for working remotely from home, I got the last few pieces of my work onto the cloud, ensuring I'd have access from home. Thankfully, classes were being a lot more supportive than they had previously around this subject. Covid-19 and the constant threat that it's set to have over our normal flow of work is something that will be need taken into consideration for years to come. Simply hoping that it doesn't happen again isn't a position you're allowed to take within DevOps. If things were to go down again, we'd be the ones a considerable amount of work comes down on. It's important moving forward to be more proactive around this, ensuring it doesn't halt up work dramatically in the future.
 
 ----------------
 
