@@ -282,13 +282,15 @@ I spoke with Rob on Thursday in regards to taking on the liason position between
 ### AWS
 [AWSLogo.png]
 
-TALK ABOUT WHAT AWS IS 
+Amazon Web Servies, AWS, is currently the worlds most popular cloud based platform. AWS boasts significantly higher features and users than alternatves in this field. While competitors are increasing their market each year, Amazon Web Services stands utop as the most common response from companies currently. Users are able to utilize an AWS account to create Virtual Machines, servers and firewalls all on the cloud space. When coming at cloud storage and computing from a background where you lack reasources and equipment, AWS offers a simple and easy to understand answer. 
 
-TALK ABOUT HOW IT WAS HEAVILY PUSHED EARLY
+[cloudQuadrant.jpg]
 
-TALK ABOUT HOW AT START OF SEMESTER THERE WAS LITTLE OBVIOUS TO DO AS DEVOP'S IS FUNDAMENTALLY REACTIONARY
+Amazon Web Services was pushed to us as a major focus at the start of semester. We were encouraged to study it as much as possible in the early weeks of semester where major projects that we'd otherwise be focused on hadn't yet started. Coming from a background where I had zero experience inside a Developer Operations workspace, this acted as a simple target for work going forward.
 
-TALK ABOUT DOING THE AWS LABS AND SUCH BUT DECIDING NOT TO DO THE CERTIFICATION BASED
+Developer Operations, by definition, exists in an extremely reactive space. Unlike Robotics or Mobile, you aren't working on a project from the very beinning that you're able to sink your focus into. Since a lot of us were coming into Operations completely blind, and thus without the ongoing projects that other students would be working on. From this perspective, focusing our early time into AWS tutorials made perfect sense. 
+
+AWS labs leading up to certification is relatively simple. There isn't too much independent thought that has to come into it. Not to say that it's a complete cake walk that I finished in only a few days, but that the process is extremely guided, little room comes up for free thought or problem solving. For the first few weeks of semester, we would slowly make process through AWS, however, as early as week Five, our tutor Faisal pivoted our focus towards Azure cloud based solutions. The work that we'd done on AWS transferred over towards Azure, however that had its own limitations and restrictions. 
 
 ### Azure
 [AzureLogo.png]
