@@ -59,13 +59,13 @@ We were asked to create a goals sheet to discuss with Faisal. This is to give us
 
 
 ##### AWS Cerfication
->
+> Amazon Web Services Certifications are recognized globally and the platform itself is the most used in regards of cloud computing. As a beginner entering into Devops, the guided learning that the tutorials offer is a good starting off point, even as simple as they are. 
 
 ##### Scripting
->
+> Scripting will allow me to assist my teammates with their problems as well as having a strong overrall splash in the group. As it's currently the area my lecturer wishes me to focus, I expect for the time being it will be the majority of my focus. I already have a baseline of knowledge in this field, having worked with Powershell i nthe past within the Security and Linux papers. 
 
 ##### Operations
->
+> The small amount of operations exposure I've had, being a small amount of discussion with Rob and checking out the D312 work computers, has driven me to wanting to look into this further. It feels like very real world applicable work, something that I'll be focusing on moving forward with my studies. 
 
 #### Week Four
 
