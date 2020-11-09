@@ -4,7 +4,7 @@
 
 [AWS](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#aws), [Azure](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#azure), [Scripting](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#scripting), [Communication](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#communication), [Databases](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#databases), [Covid-19](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#covid-19)
 
-[Reflection](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#reflection)
+[Conclusion](https://github.com/ARMSFA1/Devops-2020/blob/master/ReadMe.md#conclusion)
 
 
 ______________________
@@ -67,7 +67,7 @@ Operations
 
 I've begun work on my idle script. Currently, it's only been tested on the one PC but seems to be completely operational. In it's testing phase, it fires off ten tests at random intervials apart (1-10 seconds), which then list the last time and date that a user interacted with the system and then in turn how long it's been since then, going as precise as seconds. When detecting that the idle time has elapsed a specifific time value since being in use, it will then shut down. The struggle for this moving forward will be to work out how effective this is on a long term basis and if it will incorrectly shutdown the VM's it's supposed to work on. 
 
-[ PUT A PICTURE OF THE SCRIPT RUNNING AND SHIT]
+[idleScriptRunning.png]
 
 I will need to host a VM to continue my work, as there's currently too much guessing work at the current level to be doing anything effective.
 
@@ -82,8 +82,6 @@ micro-machines!
 ##### Summary
 
 https://www.odt.co.nz/news/national/covid-back-lockdown-auckland-level-2-rest-nz COVID HAPPENED 
-
-
 
 #### Week Six
 
@@ -275,6 +273,8 @@ Nick Baty, a security expert residing in the South Island, came in to speak with
 
 I spoke with Rob on Thursday in regards to taking on the liason position between himself and the rest of the ops group. We discussed why I wanted to do the job, the strengths I thought I brought as well as the tasks that will be required of next year. After a brief ten minutes, I was told that the position was mine. I'll be moving to get Bex's reasources that she used, as well as discussing everything involved with the job over the next few weeks, but definitely after portfolio deadline.
 
+
+# Report
 ----------------
 
 ### AWS
@@ -295,7 +295,7 @@ AWS labs leading up to certification is relatively simple. There isn't too much 
 
 TALK ABOUT WHAT AZURE IS 
 
-TALK ABOUT HOW IT'S BENEFIT OF CONSOLODATING REASOURCES
+The three major benefits going forward with Azure cloud based computing is the consolodation of resources, the hybrid potential and the lower costs. As the school is able to commit for such long periods of time when it comes to purchasing services as well as already owning specific licenses, they're able to bring the costs moving forward down massively. When put in direct comparison to the current method the school uses, Azure tends to cheapen options dramatically. By being hybrid compatible, meaning you're able to have Azure and standard resources communicating fully, the practicaility that Azure is able to bring to solutions outpaces AWS by leaps and bounds. Finally, you aren't required to store massive lists of Servers with their availibility points with Azure. Everything is brought into the same location, causing for easy to manage work spaces.
 
 DISCUSS PERMISSIONS AND DIFFICULTY OF WORKING AROUND THAT
 
@@ -359,7 +359,7 @@ TALK ABOUT WHAT YOU DID TO PREPARE FOR A POTENTIAL LOCKDOWN
 
 ----------------
 
-## Reflection
+## Conclusion
 
 reflect on the semester, what worked, what didn't, if you'll do devops again, etc
 
