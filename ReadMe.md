@@ -72,19 +72,23 @@ I've begun work on my idle script. Currently, it's only been tested on the one P
 
 [idleScriptRunning.png]
 
-I will need to host a VM to continue my work, as there's currently too much guessing work at the current level to be doing anything effective.
+The reality of where I'm standing with my work is that I'm going to need access to a few more tools to really be able to test it efficently. This namely comes in the shape of a Virtual Machine, something that I'll be able to take care of via Amazon Web Services. This is due to a few limitations. By the nature of what I'm working on, it needs to be able to shut down the PC, sometimes often. This inevitibly becomes impractical when repeated. By being able to assign it to a virtual machine, I'll be able to monitor it's functionality and work on it at the same time.
 
-Additionally, I've spoken with my team mates in Devop's and made sure to let them know that if they have any scripting needs moving forward to please get in contact with me, as more often than not, I expect I won't have any specific singular job that I am working towards.
+Additionally, I've spoken with my team mates in Devop's and made sure to let them know that if they have any scripting needs moving forward to please get in contact with me, as more often than not, I expect I won't have any specific singular job that I am working towards. I'm hoping to get something in the coming weeks. I've heard talks around a few projects that might be interesting to me, but I'm unsure of what assistance I'd be able to offer currently.
+
 [informing faisal]
-talk about pic
 
-micro-machines!
+Thursday of week five I was predisposed away from class. Over the subsequent weekend I turned my focus onto virtual machines and how I was going to go about using one. Recently the target for us had shifted from AWS to Azure, meaning there was a new cloud computing interface that I needed to familiarize myself with. After poking around through pricing options and availibility, I settled on an Azure Windows Virtual Machine. 
 
 #### Week Five
 
 ##### Summary
 
-https://www.odt.co.nz/news/national/covid-back-lockdown-auckland-level-2-rest-nz COVID HAPPENED 
+Tuesday was met with the news that we were entering into lockdown for a second time as a result of Covid-19. While significantly less intense in comparison to the quarantine earlier this year, it's no doubt bound to have an impact on how we're learning. Getting in touch with teachers as soon as possible revealed that classes would continue under level 2. Despite this confidence, I moved to put he remainder of my work onto the cloud in preperation for what could be comning. 
+
+[AlertLevels]
+
+As the job would largely fall onto the Devop's group should we need to massively migrate onto online services temporarily, I ended up putting aside any focus on scripting for this week and instead moved to familiarize myself with Azure and exactly what it was capable. My line of thinking being that if we did have to return to classes from home I at least wanted the ability to do so efficently. I managed to get in contact with several lecturers throughout the class, discussing what the future might be looking like from a services side, should we need to re-enter a full-on quarantine. 
 
 #### Week Six
 
@@ -96,7 +100,7 @@ Azure Acc Disabled limiting what I can do. Discuss how I talked with other team 
 
 entire first and second classes were trying to solve this issue, eventually found out I Bex and myself needed to be added to the resource group by Faisal
 
-Talk about what I learned from this situation. Importance of testing out permissions as soon as you can, how you need to ensure that everyone you're responsible for is set-up
+The lesson to take away from this whole debacle is that it was very avoidable. Had we simply gone through and tested our permissions and access as soon as we were given it, this would have been discovered and rectified before it ever became this much of a hassle. Trusting in the majority that everything was working is what led us into this mess initially, something I've come to regret. In the fututre, the importance of testing permissions is something that will exist in the forefront of my mind.
 
 #### Week Seven
 
