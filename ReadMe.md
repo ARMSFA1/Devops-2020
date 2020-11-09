@@ -51,18 +51,21 @@ At the beginning of this week I spoke with Faisal to identify some goals moving 
 
 [goals-pie.png]
 
-I've been given of writing a powershell script. The script in question will be required to indentify if a computer has been idle for five or more minutes and then shut it down. This will then be deployed across our micro-machines. Talk about how you researched micro machines
+I've been given the task of creating a script that will be able to detect when a virtual machine has been idle for a certain period of time and then shut down. Cost is a massive issue going through the BIT. Being able to reduce the uptimes of our virtual machine will massively reduce the costs that we're paying for them. By keeping this to a minimum, I.E when they're being actively used, we'll be able to avoid any massive costs that may come as a result of a student leaving their Virtual Machine on over the holidays (or similar). 
 
-I created a goals sheet to discuss with my lecturer, Faisal. I've included a copy of it on this repository. It speaks into the wants that I have for this period of school, as well where I feel like my strengths lie.
+We were asked to create a goals sheet to discuss with Faisal. This is to give us an idea of where we'll be focusing our effort. I found this really hard to do so early into the year. I'm still coming to terms with what Devops is to a degree, finding specific areas I want to focus myself was really hard. I've mainly been going from suggestions from Faisal. I'd like to be able to have stronger opinions on this in the future. 
 
 [devopsPlanning.jpg] 
-discuss the file, give extended thoughts on each section
 
-AWS Cerfication
 
-Scripting
+##### AWS Cerfication
+>
 
-Operations
+##### Scripting
+>
+
+##### Operations
+>
 
 #### Week Four
 
