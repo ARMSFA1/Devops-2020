@@ -325,10 +325,11 @@ TALK ABOUT WHAT AZURE IS
 
 The three major benefits going forward with Azure cloud based computing is the consolodation of resources, the hybrid potential and the lower costs. As the school is able to commit for such long periods of time when it comes to purchasing services as well as already owning specific licenses, they're able to bring the costs moving forward down massively. When put in direct comparison to the current method the school uses, Azure tends to cheapen options dramatically. By being hybrid compatible, meaning you're able to have Azure and standard resources communicating fully, the practicaility that Azure is able to bring to solutions outpaces AWS by leaps and bounds. Finally, you aren't required to store massive lists of Servers with their availibility points with Azure. Everything is brought into the same location, causing for easy to manage work spaces.
 
-DISCUSS PERMISSIONS AND DIFFICULTY OF WORKING AROUND THAT
+With the transition from working with AWS to Azure a large amount of time was held up with the difficulties around permissions. Some students were able to access everything fine, while others found their access denied at every turn. Taking up a week of work personally, the issues around being added to the correct resource groups did inevitibly result in a large amount of research being done into what caused this. Even though a week of 'work' was lost in the traditional sense, the time was instead spent learning about how permissions, pricing and resource groups work on Azure, something that could only be beneficial moving forward.
 
 TALK ABOUT WHAT I'VE USED AZURE FOR, VM'S, DATABASES, NSG, MARIADB. CONNECTIONS, SSH RPD
 
+Azure has a few massive benefits that put it ahead of the competition for my uses. Primarily 
 TALK ABOUT BENEFITS AND DOWNSIDES OF AZURE. DON'T HAVE TO TUNNEL IN TO CONNECT AND ISSUES WITH SUPPLY AND COST COMPARED TO A VM, AS AN EXAMPLE.
 
 When discussing Azure in this context, it's impossible to a degree to get away from the comparison to Amazon Web Services. While from a first glance they seem to do the exact same thing, the choice really comes down to what you need it for. AWS has problems playing nice with other services, meaning that if you're going for a hybrid approach (which, the vast majority of the time you will be for major projects) then Azure is the clear winner in this comparison. Another problem is pricing. At a raw level, AWS tends to cost significantly more than Azure, doubly so if you're able to make use of the offers that Azure has for windows license owners. Comparing prices across Windows Server, SQL Sever PaaS and SQL Server LaaS AWS was consistently around five times more expensive. AWS also charges by the hour rounded up for all services whereas Azure uses pay-as-you-go pricing, something that massively inflates prices for students where they might have a reasource open for only a few minutes.
@@ -379,7 +380,8 @@ elastic pools vs VM's vs Databases
 | col 3 is | right-aligned |    $1 |
 
 ### Covid-19
-COVID. TALK ABOUT SECOND WAVE AND THE PUBLIC ANNOUNCEMENTS WE WERE GIVEN
+
+Early in week 5 New Zealand was shaken by the news that we would be entering back into lockdown. The effected the Auckland region for level 3, with the rest of New Zealand going into level 2. While we never had to enter work from home, it was a risk that was constantly looming over our heads as we moved forward with the degree. A renewed focus was put into contact tracing, masks and sanitizing surfaces. 
 
 Opposed to the earlier Covid-19 lockdown we'd had in the year, I was a lot more relaxed about the notion on having to work from home. Due to our focus on cloud based computing this semester I knew that all the resources I'd need to work were already readily available to me. I'd be able to create a virtual machine and test my scripts from home, meetings could be done over Zoom and tickets would go as normal. Thankfully, of course, it didn't end up happening. However, I was considerably more aware of the possibility and what it would mean for us going forward than I had been in the past. 
 
