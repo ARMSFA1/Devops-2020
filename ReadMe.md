@@ -109,11 +109,19 @@ The lesson to take away from this whole debacle is that it was very avoidable. H
 
 ##### Summary
 
-First VM Azure
+With the previously mentioned assistance from Faisal, I was able to gain access to two Azure reasource groups, Student_ops and Death_Star. Death_Star being a resource group created to facilitate a security assignment, I assumed Student_Ops is where I should go. There are various options for pricing as well as the specific image you want to use. I ended up searching for a cheap windows based machine. I assumed windows VM's would be one of the more common that're being used, however, the choice primarily came down to experience. I've had more time working with windows scripting languages than I have for linux based bash scripting. Since this is my first time experimenting with Virtual Machines, I elected to go with the much more familiar of the two options. 
 
-had trouble knowing which resource group to use
+Unfortunately, I was wrong with my initial assessment about which resource group I should be using. It turned the student_ops resource group was being used for a specific purpose. With the related assignment over for Security, the Death_star resource group ended up being a risk free enviroment to work with. When first encountering this error, I thought it had to be due to permissions we hadn't been given, similar to the problem which effected us last week. After getting in contact with Faisal, I was quickly corrected in my misjudgement. 
 
-since deleted unfortunately
+[faisalVM.png]
+
+Getting my script onto a virtual machine was my first challenge. While I could simply create a new text document and manually enter everything in, I figured this wasn't going to be an option that I could use long term if this was going into automation. After asking around with a few teammembers, my answer came in WinSCP. WinSCP acts as an easy way to trasnfer files to a remote machine. After connecting to my virtual machine via SSH, it was as easy as dragging the files I wanted added over. While saving only a little bit of time on a single computer, this would prove to be a massive time saver in the long run. It also would be extremely useful when interacting with a linux virtual machine.
+
+[winSCP.png]
+
+Using WinSCP is extremely similar to working with PuTTy. Essentially, if you're able to connect to a remote machine via SSH, you should be able to do so with WinSCP. Aside from the primary feature of transfering files to a remote machine, WinSCP can be used as a basic file manager or for file synchronization. 
+
+Unfortunately, I'm unable to pull up any screenshots of the virtual machine itself. This is due to a decision to delete it once I was finished working with it. This came from a misunderstanding around how costs work for resources. I'd thought that I would constantly be costing the school as long as the VM existed, even if it was not currently active. This is a mistake I've learned from going forward, as it's always important to be able to track the work that you've done.
 
 #### Week Eight
 
