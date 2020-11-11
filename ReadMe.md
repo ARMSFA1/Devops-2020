@@ -121,29 +121,39 @@ Getting my script onto a virtual machine was my first challenge. While I could s
 
 Using WinSCP is extremely similar to working with PuTTy. Essentially, if you're able to connect to a remote machine via SSH, you should be able to do so with WinSCP. Aside from the primary feature of transfering files to a remote machine, WinSCP can be used as a basic file manager or for file synchronization. 
 
-Unfortunately, I'm unable to pull up any screenshots of the virtual machine itself. This is due to a decision to delete it once I was finished working with it. This came from a misunderstanding around how costs work for resources. I'd thought that I would constantly be costing the school as long as the VM existed, even if it was not currently active. This is a mistake I've learned from going forward, as it's always important to be able to track the work that you've done.
+> *Unfortunately, I'm unable to pull up any screenshots of the virtual machine itself. This is due to a decision to delete it once I was finished working with it. This came from a misunderstanding around how costs work for resources. I'd thought that I would constantly be costing the school as long as the VM existed, even if it was not currently active. This is a mistake I've learned from going forward, as it's always important to be able to track the work that you've done.*
 
 #### Week Eight
 
 ##### Summary
 
-accidentally left VM on during weekend break.
+Between the weekend break bridging week seven and eight, I left my virtual machine running on the Death_star resource group. In hindsight, this wasn't as big of an issue as I thought it was. However, with little knowledge of how pricing works, I thought that I had made a massive mistake. Wanting to avoid massive costs for the school coming from my account, I opted to delete the virtual machine. Later in class I'd discuss this with a teammate who would inform me of my misunderstanding. Thankfully, going forward, I'm already very aware of what I need to do when creating a virtual machine. Despite taking a week to understanding in the first place, I'm since able to replicate that work within ten minutes. 
 
 [leftVMOn.pmg]
 
-Chcked D312 on friday
+Friday was my rostered on shift to check the D312 computers. I'd noticed that the rostered order for these checkups had since gone missing on its related ticket. As a result of this, we were left with guess work to figure out who was on next. After going through and recreating the roster via checking through each finished report, I was able to pass this information onto Bex (Rebekah Shinderman) who acts as the corospondance between the students and Rob. 
 
-The D312 report has been included on this GitHub, under the title "d312 checklist september 11th"
+Going through the machines, I ran into very few problems, with the exception of a single machine. The guards that usually existed over potential ports for graphics cards and other hardware extensions had been popped inwards on the computer. This meant that there were multiple long strips of metal resting within the machine. As hardware isn't one of the strong points, I got in contact with Rob over the problem and recorded all issues that I found.  Ideally, had this job been done more regularly, I wouldn't have encountered as many issues, however this is just the reality of working within a large group, certain jobs will get ignored over time. A secondary problem that I was regularly encountering was that a large majority of the systems had un-activated copies of Windows. After getting in contact with Rob, during my work, I was informed that this wasn't something we should worry about.
 
 [discussingD312.png]
-
-
+The D312 report has been included on this GitHub, under the title "d312 checklist september 11th"
 
 #### Week Nine
 
-on monday I was ill worked from home on ??? research for db3? signed up for 
-
 ##### Summary
+
+A classmate of mine who I shared duties with for D312, Bex, got in contact with me inregards to a job with Krissi, the lecturer for Databases at the school. The current cloud infrastructure that was being employed wasn't working out for them long term, meaning they were looking for an alternative. At this point, our knowledge about the problem is pretty limited, but we'd been told that the solution will need to heavily involve Azure. For the past few weeks within project, I'd felt extremely disconnected from any of the long term projects that were going on around me. Because of this, I ended up accepting Bex's offer to join the group working on the problem. 
+
+As I was sick on Monday, I pivoted my focus into researching for the Databases problem. It quickly became apparent to me why Azure had been the selection over AWS, a service that had previously been pushed onto the students heavily. Azure allows for hybrid based solutions, meaning that you're not restricted to exclusively using remote resources. As price is the biggest issue with the current system, having the option of running local virtual machines and servers as well as the remote options offered by Azure would almost definitely come out ahead. Moving forward, we'll be having a meeting to discuss the problem and potential options. Knowing exactly why we're doing the things that we do will be an aide in suggesting the right kind of informed solutions. 
+
+A MariaDB server is currently in use for Databases 2. After looking through the Azure marketplace, I found multiple MariaDB options offered through Azure. My thought process with this being that the most effective solution may just be replicating the current infrastructure in Azure, allowing us to lower our costs where ever we can. Based on the research that I've done already, the most important question to ask going into the meeting with Krissi will be whether or not she's happy with her current set-up. Based on this answer we'll know the direction that we need to be going in.
+
+[MariaDBAzure.png]
+
+On Friday, Faisal got in contact with me in regards to a new duo of scripts that he would like created. They're to be used with his second year students to quickly create a virtual machine and then be able to delete said virtual machine with a second script. The thought process here being that we want to avoid having the students need to take on too many new things at once. While it would be possible to teach each student how to create a virtual machine whenever it's needed, if that's knowledge that's not helping them with that subject then it's a process that should be automated. After talking with Faisal, I created a brief outline of how I'd expect the creation script to exist, with a series of questions asking you to input the specifications that you want. 
+
+[vmCreationScript.png]
+This script can be found on GitHub, under the title "createVM.ps1"
 
 #### Week Ten
 
