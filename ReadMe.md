@@ -363,27 +363,27 @@ Specifically during the latter half of the semester, during the Databases transf
 Within the smaller groups we ended up seperated into as we took on our individual jobs it became incredibly important to touch base each day about where we were at with our work. It's a lot harder to fall behind in what you're doing when you're having regular opportunities to discuss progress. There's an expectation on each of us to be bringing new information to each meeting. As an extension of this, you begin naturally working at a regular pace. Standup meetings stop me, personally, from falling behind during long term projects. For such a minimal amount of time that they take out of the day, I find them to be incredibly useful for productivity.
 
 ### Databases
-TALK ABOUT THE INITIAL TASK GIVEN, HOW IT WAS SHOWN TO YOU BY BEX AND YOU ACCEPTED AS YOU WERE OTHERWISE STUCK PURELY DOING SCRIPTING AND WANTED EXPERIENCE WORKING WITH A GROUP AND AN EXTERNAL CLIENT I.E NOT FAISAL 
+I was initially informed about this job by a fellow student, Bex (Rebekah Shinderman). The servers for Databases two and three needed to be changed for next semester. Our job was to work out what the problem was and supply a sufficent solution. I accepted as I was otherwise stuck doing purely scripting for the remainder of the semester, something I desperately wanted to avoid for the benefit of my own learning. I wanted experience working within a group and with an external client from Project. 
 
-TALK ABOUT WHAT THE PROBLEM WAS
-
-TALK ABOUT THE OVER ALL PLAN, TRANSFER THIS THIS SEMESTER BECAUSE OF THIS, DB3 LATER BECAUSE OF BUBBLE ETC
+The problem with the current system for Databases is their cost. The infrastructure was put in place a around five years ago now and is costing the school thousands every month that it's running. Azure infrastructure services would allow for us to outsource a lot of our hardware needs, thus cutting down the costs alongside. Databases two ran on a MariaDB server, something that we're able to directly replicate on Azure. Thankfully, Krissi wanted to replicate her current infrastructure as much as possible, massively cutting down on the design work that needed to go into the task. Our task from this point onwards was working out whatever solution would require the least amount of maintainence to the most effecient cost. 
 
 TALK ABOUT WHAT IT IS THAT I WAS FOCUSED ON PRIMARILY
 
-DISCUSS THE IMPORTANCE OF MEETINGS DURING THIS TIME AND NOTE TAKING
+During this period of time, the importance of regular meeting and note taking became clear. We were often having to go back and check over recordings of meetings or our old notes in order to adjust the focus of our work. It was through repeated meetings with our client and Rob that we were able to rapidly develop our ideas in such a short span of time. During meetings, with permission, we would take a recording of what was said. The recording would then be listening to and transcripted into various talking points in order for the group to have a set of notes.
 
-TALK ABOUT WHAT THE PLAN MOVING FORWARD FOR NEXT SEMESTER IS
+As a result of Covid-19, there's currently an extremely small roster of first year students. These students entering into their second year will be eligible to take the class Databases 2. To capitilize on the benefit of a smaller class, Krissi would like to implement our Databases two solution over the course of the first semester of next year. Her line of thinking being that less students in the classes will mean there's less opportunities for things to go wrong. Databases 3 will need it's solution investigated further, as there's currently no agreed upon conclusion for what should be done with it. Our options for Databases two was either going to be a series of virtual machines or a dedicated MariaDB server. 
 
-INCLUDE PRICING OPTIONS HERE'S A TABLE TO PUT THEM IN MAYBE
-
-elastic pools vs VM's vs Databases 
-
-| Tables   |      Are      |  Cool |
+*VM*
+| V-core   |      Memory   |  Price |
 |----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+| 1 |  2 | ~$57.394 per month |
+| 1 |  4 | ~$114.787 per month |
+
+*MariaDB*
+| vCPU   |      Memory     |  Pay-as-you-go |  1 year reserve %savings |
+|----------|:-------------:|------:|------:|
+| 2 |  4 | ~$58.2764 per month | ~$34.1491 (-41%) |
+| 2 |  8 | ~$116.9943 per month | ~$68.2872 (-42%) |
 
 ### Covid-19
 
