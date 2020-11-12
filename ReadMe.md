@@ -97,11 +97,11 @@ As the job would largely fall onto the Devop's group should we need to massively
 
 ##### Summary
 
-Azure Acc Disabled limiting what I can do. Discuss how I talked with other team members to figure out an option before getting in contact with Faisal and Rob, Rob wasn't sure, Faisal said he'd add me to what he needed to in order for my work to continue
+Myself and a few other classmates ran into issues accessing our Azure accounts. After encountering the issue myself, I independenly tried to solve the issue before asking a few other team mates. After getting in Rob, we were still confused as his response didn't seem to help the situation at all. Finally we reached out to Faisal who was otherwise not present that lesson.
 
 [messagingRobAzure]
 
-entire first and second classes were trying to solve this issue, eventually found out I Bex and myself needed to be added to the resource group by Faisal
+The first and second classes of the week were spent in person attempting to overcome this issue. Eventually, it had turned out that we hadn't been added to the necessary reasourse group in order to do our work. Not having access to a resource groups means you have no where to deploy any Azure resources. Faisal later got in contact and informed us that he had added us to the relevent groups, solving the issuee.
 
 The lesson to take away from this whole debacle is that it was very avoidable. Had we simply gone through and tested our permissions and access as soon as we were given it, this would have been discovered and rectified before it ever became this much of a hassle. Trusting in the majority that everything was working is what led us into this mess initially, something I've come to regret. In the fututre, the importance of testing permissions is something that will exist in the forefront of my mind.
 
@@ -212,6 +212,7 @@ With permission, the meeting with Krissi was recorded and is available on this g
 > Investigate Docker Containers within Azure.
 >
 > Research into how a password policy could best be implemented.
+*Paraphrased from meeting summary by Rebekah Shinderman*
 
 I wanted to make some progress on my Creation VM project during this Friday, as it was the first time in awhile that I had a free day. As Faisal has said that this script will be used with the new students coming in to create their Virtual Machines, I want to try and make it hold the users hand as much as possible when going through. As a reflection of this, I've added in constant confirmation points into the script. After inputting a value, the user will be asked to confirm it. This works in conjunction with a final screen that show's all of the data that the user has entered with the ability to change any of it before creation. Currently, one of the biggest problems I'm running into is the complication around reasource groups. As I can't be sure whether the user will already have a reasource group or not, I need to implement responses for both options, which means the automated creation of reasource groups. I'm hesitant, to a degree, around going too far with this currently, as I have no idea what kind of permissions will be given to the students which could drastically alter how this works out. Additions made can be found [Here.](https://github.com/ARMSFA1/Devops-2020/commit/0bb44a0a4b030f7f7163088ee460b5bbea83d929#diff-7064b7ddfab010fe6664a13613fa50bef5d7504a9f4d11110429568cb2d95b67)
 
@@ -336,9 +337,12 @@ Azure pricing works best when bought in bulk and for the long term. If you're ab
 When discussing Azure in this context, it's impossible to a degree to get away from the comparison to Amazon Web Services. While from a first glance they seem to do the exact same thing, the choice really comes down to what you need it for. AWS has problems playing nice with other services, meaning that if you're going for a hybrid approach (which, the vast majority of the time you will be for major projects) then Azure is the clear winner in this comparison. Another problem is pricing. At a raw level, AWS tends to cost significantly more than Azure, doubly so if you're able to make use of the offers that Azure has for windows license owners. Comparing prices across Windows Server, SQL Sever PaaS and SQL Server LaaS AWS was consistently around five times more expensive. AWS also charges by the hour rounded up for all services whereas Azure uses pay-as-you-go pricing, something that massively inflates prices for students where they might have a reasource open for only a few minutes.
 
 ### Scripting
-TALK ABOUT APPROACH TO SCRIPTING (IT'S IN YOUR FOLIO)
+What initially took my interest about scripting my familiarity with it. I'd previously done both the Linux and Security papers, both of which involved at least a minor amount of both PowerShell or bash scripting. When I first entered into the Devops group, I had little idea what the job entailed. I sought out tasks that I knew I could do. Pushed on by the encouragement of my lecturer, Faisal, I agreed to take on any scripting challenges that we had ahead of us. Automation is something that's always going to be prioritized. If you're able to minimize the amount of work each person has to do, they're working more efficently. No matter what the task is, it's safe to assume there's a way to do it quicker via command line inputs, granted you were willing to put in the effort initially. 
+
+While I had a familiarity with scripting, it would be ignorant to say that I had any level of mastery or impressive skill at it. My main focus for this semester was always going to be research, so I took a focus to scirpting in the exact same way. I methodically researched and took the help of code snippets online liberally. I wanted to understand what made their scripts work and why they wrote them the way that they did. When doing any long term scripting work in class I expermimented greedily, perhaps meaning the job isn't done as quickly, but making sure that all avenues are investigated. 
 
 TALK ABOUT SCRIPT TASKS GIVEN
+
 
 TALK ABOUT WORK DONE ON TIME OUT SCRIPT
 
