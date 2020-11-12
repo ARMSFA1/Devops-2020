@@ -31,14 +31,17 @@ Having finally gained access to my AWS (Amazon Web Services) account, I was able
 
 > ###### Docker
 > ![alt text](https://i.imgur.com/hLhMfvw.png "Docker Logo")
+>
 > Docker works as an alternative to virtual machines. Docker can package an application and its dependencies in a virtual container that can then be run on any Linux server. This allows for reduced overhead and processing power. Docker is unable to be used on machines running anything less than Windows ten. A work around of this problem is possible with the Docker Toolbox program, which has less functionality but is able to work on older hardware.
 
 > ###### AWS CLI
 > ![alt text](https://i.imgur.com/dr3JEu3.jpg "AWS Logo")
+>
 > AWS CLI (Amazon Web Services, Command Line Interface) is a CMD package that allows the user to manage their AWS services with only a single download. This comes pre-installed on Amazon Linux, and is available on Windows, MacOS and Linux operating systems. The main benefit of AWS CLI being that it's a completely unified tool, instead of having to mess with a series of individual programs, everything included is meant to work together.
 
 > ###### Atom
 > ![alt text](https://imgur.com/5ILrZCV "Atom example")
+>
 > Atom is a relatively unique text editor. It functions similar to a Visual Studio Code, as upon opening a folder you're able to easily navigate between subfolders. Atom's default packages can apply syntax highlighting for various programming languages and file formats, with more being available through additional packages, of note in this selection are; PHP, JSON, C/++/#, Ruby and SQL.
 
 #### Week Three
