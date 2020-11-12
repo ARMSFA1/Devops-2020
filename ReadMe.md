@@ -40,7 +40,7 @@ Having finally gained access to my AWS (Amazon Web Services) account, I was able
 > AWS CLI (Amazon Web Services, Command Line Interface) is a CMD package that allows the user to manage their AWS services with only a single download. This comes pre-installed on Amazon Linux, and is available on Windows, MacOS and Linux operating systems. The main benefit of AWS CLI being that it's a completely unified tool, instead of having to mess with a series of individual programs, everything included is meant to work together.
 
 > ###### Atom
-> ![alt text](https://imgur.com/5ILrZCV "Atom example")
+> ![alt text](https://i.imgur.com/5ILrZCV.png "Atom example")
 >
 > Atom is a relatively unique text editor. It functions similar to a Visual Studio Code, as upon opening a folder you're able to easily navigate between subfolders. Atom's default packages can apply syntax highlighting for various programming languages and file formats, with more being available through additional packages, of note in this selection are; PHP, JSON, C/++/#, Ruby and SQL.
 
@@ -50,13 +50,13 @@ Having finally gained access to my AWS (Amazon Web Services) account, I was able
 
 At the beginning of this week I spoke with Faisal to identify some goals moving forward on what I should be doing. We identified what I'm interested in and where my goals are into three different areas. Wanting to obtain the AWS Certification, I estimate that it will take up 40% of my time moving forward. Additionally, we singled out my interest in writing scripts, meaning that the remainder of my time should be dedicated to writing scripts and operations tasks with Rob. 
 
-[goals-pie.png]
+![alt text](https://i.imgur.com/zfXip0Y.png "Goals pie")
 
 I've been given the task of creating a script that will be able to detect when a virtual machine has been idle for a certain period of time and then shut down. Cost is a massive issue going through the BIT. Being able to reduce the uptimes of our virtual machine will massively reduce the costs that we're paying for them. By keeping this to a minimum, I.E when they're being actively used, we'll be able to avoid any massive costs that may come as a result of a student leaving their Virtual Machine on over the holidays (or similar). 
 
 We were asked to create a goals sheet to discuss with Faisal. This is to give us an idea of where we'll be focusing our effort. I found this really hard to do so early into the year. I'm still coming to terms with what Devops is to a degree, finding specific areas I want to focus myself was really hard. I've mainly been going from suggestions from Faisal. I'd like to be able to have stronger opinions on this in the future. 
 
-[devopsPlanning.jpg] 
+![alt text](https://i.imgur.com/oSmoS1A.jpg "Devops Planning")
 
 
 ##### AWS Certification
@@ -74,13 +74,13 @@ We were asked to create a goals sheet to discuss with Faisal. This is to give us
 
 I've begun work on my idle script. Currently, it's only been tested on the one PC but seems to be completely operational. In it's testing phase, it fires off ten tests at random intervals apart (1-10 seconds), which then list the last time and date that a user interacted with the system and then in turn how long it's been since then, going as precise as seconds. When detecting that the idle time has elapsed a specific time value since being in use, it will then shut down. The struggle for this moving forward will be to work out how effective this is on a long term basis and if it will incorrectly shutdown the VM's it's supposed to work on. 
 
-[idleScriptRunning.png]
+![alt text](https://i.imgur.com/47ut6EF.png "Idle Script Running")
 
 The reality of where I'm standing with my work is that I'm going to need access to a few more tools to really be able to test it efficiently. This namely comes in the shape of a Virtual Machine, something that I'll be able to take care of via Amazon Web Services. This is due to a few limitations. By the nature of what I'm working on, it needs to be able to shut down the PC, sometimes often. This inevitably becomes impractical when repeated. By being able to assign it to a virtual machine, I'll be able to monitor it's functionality and work on it at the same time.
 
 Additionally, I've spoken with my team mates in Devop's and made sure to let them know that if they have any scripting needs moving forward to please get in contact with me, as more often than not, I expect I won't have any specific singular job that I am working towards. I'm hoping to get something in the coming weeks. I've heard talks around a few projects that might be interesting to me, but I'm unsure of what assistance I'd be able to offer currently.
 
-[informing faisal]
+![alt text](https://i.imgur.com/Xtb0t3y.png "Informing Faisal")
 
 Thursday of week five I was predisposed away from class. Over the subsequent weekend I turned my focus onto virtual machines and how I was going to go about using one. Recently the target for us had shifted from AWS to Azure, meaning there was a new cloud computing interface that I needed to familiarize myself with. After poking around through pricing options and availability, I settled on an Azure Windows Virtual Machine. 
 
@@ -90,7 +90,7 @@ Thursday of week five I was predisposed away from class. Over the subsequent wee
 
 Tuesday was met with the news that we were entering into lockdown for a second time as a result of Covid-19. While significantly less intense in comparison to the quarantine earlier this year, it's no doubt bound to have an impact on how we're learning. Getting in touch with teachers as soon as possible revealed that classes would continue under level 2. Despite this confidence, I moved to put he remainder of my work onto the cloud in preparation for what could be coming. 
 
-[AlertLevels]
+![alt text](https://i.imgur.com/f3ldYW0.png "Alert Levels")
 
 As the job would largely fall onto the Devop's group should we need to massively migrate onto online services temporarily, I ended up putting aside any focus on scripting for this week and instead moved to familiarize myself with Azure and exactly what it was capable. My line of thinking being that if we did have to return to classes from home I at least wanted the ability to do so efficently. I managed to get in contact with several lecturers throughout the class, discussing what the future might be looking like from a services side, should we need to re-enter a full-on quarantine. 
 
@@ -100,7 +100,7 @@ As the job would largely fall onto the Devop's group should we need to massively
 
 Myself and a few other classmates ran into issues accessing our Azure accounts. After encountering the issue myself, I independently tried to solve the issue before asking a few other team mates. After getting in Rob, we were still confused as his response didn't seem to help the situation at all. Finally we reached out to Faisal who was otherwise not present that lesson.
 
-[messagingRobAzure]
+![alt text](https://i.imgur.com/33pafSo.png "Messaging Rob, Azure")
 
 The first and second classes of the week were spent in person attempting to overcome this issue. Eventually, it had turned out that we hadn't been added to the necessary resources group in order to do our work. Not having access to a resource groups means you have no where to deploy any Azure resources. Faisal later got in contact and informed us that he had added us to the relevant groups, solving the issue.
 
@@ -114,11 +114,11 @@ With the previously mentioned assistance from Faisal, I was able to gain access 
 
 Unfortunately, I was wrong with my initial assessment about which resource group I should be using. It turned the student_ops resource group was being used for a specific purpose. With the related assignment over for Security, the Death_star resource group ended up being a risk free environment to work with. When first encountering this error, I thought it had to be due to permissions we hadn't been given, similar to the problem which effected us last week. After getting in contact with Faisal, I was quickly corrected in my misjudgment. 
 
-[faisalVM.png]
+![alt text](https://i.imgur.com/rp4MPDb.png "Faisal VM")
 
 Getting my script onto a virtual machine was my first challenge. While I could simply create a new text document and manually enter everything in, I figured this wasn't going to be an option that I could use long term if this was going into automation. After asking around with a few team members, my answer came in WinSCP. WinSCP acts as an easy way to transfer files to a remote machine. After connecting to my virtual machine via SSH, it was as easy as dragging the files I wanted added over. While saving only a little bit of time on a single computer, this would prove to be a massive time saver in the long run. It also would be extremely useful when interacting with a Linux virtual machine.
 
-[winSCP.png]
+![alt text](https://i.imgur.com/sB2Xsti.png "WinSCP")
 
 Using WinSCP is extremely similar to working with PuTTy. Essentially, if you're able to connect to a remote machine via SSH, you should be able to do so with WinSCP. Aside from the primary feature of transferring files to a remote machine, WinSCP can be used as a basic file manager or for file synchronization. 
 
@@ -130,13 +130,14 @@ Using WinSCP is extremely similar to working with PuTTy. Essentially, if you're 
 
 Between the weekend break bridging week seven and eight, I left my virtual machine running on the Death_star resource group. In hindsight, this wasn't as big of an issue as I thought it was. However, with little knowledge of how pricing works, I thought that I had made a massive mistake. Wanting to avoid massive costs for the school coming from my account, I opted to delete the virtual machine. Later in class I'd discuss this with a teammate who would inform me of my misunderstanding. Thankfully, going forward, I'm already very aware of what I need to do when creating a virtual machine. Despite taking a week to understanding in the first place, I'm since able to replicate that work within ten minutes. 
 
-[leftVMOn.pmg]
+![alt text](https://i.imgur.com/NVzZ8Kj.png "Left VM On")
 
 Friday was my rostered on shift to check the D312 computers. I'd noticed that the rostered order for these checkups had since gone missing on its related ticket. As a result of this, we were left with guess work to figure out who was on next. After going through and recreating the roster via checking through each finished report, I was able to pass this information onto Bex (Rebekah Shinderman) who acts as the correspondence between the students and Rob. 
 
 Going through the machines, I ran into very few problems, with the exception of a single machine. The guards that usually existed over potential ports for graphics cards and other hardware extensions had been popped inwards on the computer. This meant that there were multiple long strips of metal resting within the machine. As hardware isn't one of the strong points, I got in contact with Rob over the problem and recorded all issues that I found.  Ideally, had this job been done more regularly, I wouldn't have encountered as many issues, however this is just the reality of working within a large group, certain jobs will get ignored over time. A secondary problem that I was regularly encountering was that a large majority of the systems had un-activated copies of Windows. After getting in contact with Rob, during my work, I was informed that this wasn't something we should worry about.
 
-[discussingD312.png]
+![alt text](https://i.imgur.com/LngEFcv.png "Discussing D312")
+
 The D312 report has been included on this GitHub, under the title "d312 checklist September 11th"
 
 #### Week Nine
@@ -149,11 +150,12 @@ As I was sick on Monday, I pivoted my focus into researching for the Databases p
 
 A MariaDB server is currently in use for Databases 2. After looking through the Azure marketplace, I found multiple MariaDB options offered through Azure. My thought process with this being that the most effective solution may just be replicating the current infrastructure in Azure, allowing us to lower our costs where ever we can. Based on the research that I've done already, the most important question to ask going into the meeting with Krissi will be whether or not she's happy with her current set-up. Based on this answer we'll know the direction that we need to be going in.
 
-[MariaDBAzure.png]
+![alt text](https://i.imgur.com/OznD9SO.png "MariaDBAzure")
 
 On Friday, Faisal got in contact with me in regards to a new duo of scripts that he would like created. They're to be used with his second year students to quickly create a virtual machine and then be able to delete said virtual machine with a second script. The thought process here being that we want to avoid having the students need to take on too many new things at once. While it would be possible to teach each student how to create a virtual machine whenever it's needed, if that's knowledge that's not helping them with that subject then it's a process that should be automated. After talking with Faisal, I created a brief outline of how I'd expect the creation script to exist, with a series of questions asking you to input the specifications that you want. 
 
-[vmCreationScript.png]
+![alt text](https://i.imgur.com/iKeu9Ib.png "VM Creation")
+
 This script can be found on GitHub, under the title "createVM.ps1"
 
 #### Week Ten
@@ -235,7 +237,8 @@ Unfortunately, I came down ill after the first day back, missing the remainder o
 
 For the first class of week twelve, I was still feeling too under the weather to come in, however I was a lot more lucid than previously. As I knew Rob was going to be asking my group what it was that we were doing and where we were at I created a write-up for my research as well as including footnotes at the bottom if they were asked anything related. 
 
-[MessagingTeamSick]
+![alt text](https://i.imgur.com/nXn1NPY.png "Messaging Team Sick")
+
 *This write up can be found on this GitHub under, SickWriteup.docx
 
 On the following Tuesday we were required to submit a request to Faisal listing why we needed access to certain aspects of Azure. I was tasked with turning the few bullet points we had into a proper explanation, while Jae focused on costs, Bex effectively orchestrating the thing as it was her that started the process. The culmination of this effort can be read on this GitHub, under pleaForServices.docx
@@ -246,7 +249,7 @@ Rob had been chasing our group up for a summary of our plans moving forward. The
 
 Over the weekend, I'd figured it was about time that I delve into the nuts and bolts of the process, especially now that we finally hard the permissions to do so. Installing Docker Desktop, I went through the process of learning how to create a container. The furthest I got in this process was just prior to assigning it to a database. Seeing the flaw in my planning, I moved on to arranging one of those instead. There were a few options for what we could use here, as far as my understanding went. While the other options did come with a lot more features, I couldn't really see us using the vast majority of them, not necessarily important enough to justify the massive increase in price-tag that came along with it, a difference of around eight-hundred a month. By sticking with Azure SQL Database, I was able to pretty quickly make up exactly what I was looking for in order to start getting some work done. 
 
-[dbAzureServerDetails.png]
+![alt text](https://i.imgur.com/sVZvXGi.png "Azure Server Details")
 
 Rob asked us for a follow up meeting to discuss our summary, wanting to make sure we had sufficient solutions. I'm aiming to be able to discuss my solution properly, being able to rely on experience for what I've already done. 
 
@@ -277,7 +280,7 @@ Our meeting with Krissi was unfortunately canceled. This was a result of Krissi 
 After running into a minor roadblock with my creation VM, it dawned on me that I was collecting a lot of information that was ultimately irrelevent while also not collecting and creating everything that I needed. I'm honestly pretty glad everything with Databases 3 is heating up, as this is would be a massively stressful issue had this been my only focus as of late. Stripping the irrelevancies out, I locked down on what it was that I needed and moved forward with reaching that goal. Ultimately my goal, with the combination of tasks been given to me, having everything with Databases as well as the creation and destruction VM's finished by the end of semester.
 
 As Bex required assistance with MariaDB and Jae, her partner for that work, was unavailable I elected to step in. It was simply testing the ability to connect to MariaDB, login and then run a few simple scripts for creating a user, creating a database and then assigning it to the user in question. As to not spread our resources too thin, I'm prioritizing this work at the moment, in order to ensure that this group project gets done in time. After installing KeePass, connecting to Kate and then trying to access the MariaDB server, I was repeatedly blocked off by a specific error. Despite looking for a solution to the problem, I instead decided to use a gateway server on Azure and connect to MariaDB from there. As I've confirmed access, my next moves will be to begin moving through the scripting requirements.
-[MariaDBLoginError.png]
+![alt text](https://i.imgur.com/hUfcL5p.png "MariaDB Login Error")
 
 #### Week Fourteen
 
@@ -287,7 +290,7 @@ the MariaDB server that was created through Azure for testing purposes with our 
 
 This was my first exposure to a password manager, in this case KeePass. The concept inherently seemed to be incredibly risky. Writing down and storing our passwords is something that has been drilled into us for years to avoid doing under all circumstances. After giving it a go, I took to researching into it in my free time. Without access to the internet and locked down by your firewall, by the time a hacker gained access to the data stored on your KeePass, they would either need to be standing over your shoulder watching or already have near complete access to your system. 
 
-[KeePass.png]
+![alt text](https://i.imgur.com/MPawaZW.jpg "KeePass")
 
 Our meeting with Krissi was scheduled for 11:30am, I'd suggested previously that we arrive a few hours earlier in order to ensure that we had everything we needed and to get notes for the meeting written out. Accompanied by Rob, we went over our potential solutions with Krissi. The conversation we were able to get from her was incredibly helpful. As well as taking notes, with permission, the meeting was recorded. We talked about a time line for getting the transfer complete, as well as a trial period. Krissi elected to do a tiered transfer, meaning that she doesn't want both Databases 2 and 3 transferred at the same time, stating that it's "easier if there's only one thing to go wrong". Progress through Databases 2 is leaps and bounds ahead of Databases 3 currently, due to DB2 being a much more simple problem. Because of this, we decided that we would move forward with the DB2 transfer during semester 1, 2021 and potentially DB3 during semester 2, 2021. Krissi asked if it was possible to keep tunneling as a requirement for accessing the databases as it is very helpful as a teaching tool. We'll be able to implement this on the firewall, adding that students will need to first access a gateway server in order to access their databases. This is something that we've already done in the past with different resources, meaning I'm very comfortable with it. 
 
@@ -297,7 +300,7 @@ With permission, the meeting with Krissi was recorded and is available on this G
 
 During this semester, a classmate of mine, Bex (Rebekah Shinderman), has taken on the roll of being the line of communication between Rob and the rest of the Operations group. This has taken the form of posting jobs up on to our Teams group, sharing announcements with everyone as well as reporting back to Rob about various things. As she's expected to graduate at the end of this semester Rob has been talking about needing to find a replacement for next semester. While initially passing on the idea, I later put a bit more thought into the subject. During this semester I've felt 'out of the loop' to a degree. It's not always easy to know what's happening or who's doing what, something that was magnified by being seated away from the rest of the operations group due to the lack of desk space. Despite considering myself as someone with strong language skills, it's not something that I've ever been able to put a focus on in my education with the exception of the meager amount of presentations and speeches we were required to do during my prior years. As next semester will be my last opportunity, I think it'd be really good for me to take on this extra workload.
 
-[askingRobAboutBexsJob.png]
+![alt text](https://i.imgur.com/rBUSzx7.png "Asking Rob for Bex's Job")
 
 Nick Baty, a security expert residing in the South Island, came in to speak with us. Despite having what I'd otherwise expect to be a highly technical position, he spoke primarily of the strengths around communication. A particular quote, "IT is only as efficent as the communication behind it" stuck with me. I'd, in the past, missed out of opportunities for growth in my career and studies purely because I might not know every detail from the beginning. Having someone who's already been successful in the industry come and state the obvious was a big relief to me. 
 
@@ -308,20 +311,20 @@ I spoke with Rob on Thursday in regards to taking on the liaison position betwee
 ----------------
 
 ### AWS
-[AWSLogo.png]
+![alt text](https://i.imgur.com/9sLmu8p.png "AWS Logo")
 
 Amazon Web Services, AWS, is currently the worlds most popular cloud based platform. AWS boasts significantly higher features and users than alternatives in this field. While competitors are increasing their market each year, Amazon Web Services stands atop as the most common response from companies currently. Users are able to utilize an AWS account to create Virtual Machines, servers and firewalls all on the cloud space. When coming at cloud storage and computing from a background where you lack resources and equipment, AWS offers a simple and easy to understand answer. 
 
-[cloudQuadrant.jpg]
-
 Amazon Web Services was pushed to us as a major focus at the start of semester. We were encouraged to study it as much as possible in the early weeks of semester where major projects that we'd otherwise be focused on hadn't yet started. Coming from a background where I had zero experience inside a Developer Operations workspace, this acted as a simple target for work going forward.
+
+![alt text](https://i.imgur.com/oqf14ty.png "Cloud Quadrant")
 
 Developer Operations, by definition, exists in an extremely reactive space. Unlike Robotics or Mobile, you aren't working on a project from the very beginning that you're able to sink your focus into. Since a lot of us were coming into Operations completely blind, and thus without the ongoing projects that other students would be working on. From this perspective, focusing our early time into AWS tutorials made perfect sense. 
 
 AWS labs leading up to certification is relatively simple. There isn't too much independent thought that has to come into it. Not to say that it's a complete cake walk that I finished in only a few days, but that the process is extremely guided, little room comes up for free thought or problem solving. For the first few weeks of semester, we would slowly make process through AWS, however, as early as week Five, our tutor Faisal pivoted our focus towards Azure cloud based solutions. The work that we'd done on AWS transferred over towards Azure, however that had its own limitations and restrictions. 
 
 ### Azure
-[AzureLogo.png]
+![alt text](https://i.imgur.com/B3ZE4GL.png "Azure Logo")
 
 Azure is a cloud infrastructure service offered by Windows. Boasting over 600 services and 160 servers, Azure has grown to be a titan in the field, helped massively by their Microsoft backing. With a large amount of hybrid compatibility it's not hard to include Azure into whatever infrastructure you're creating. Out of the Fortune 500 company list, over 95% rely on Azure for their cloud services. A major benefit for Azure is the lack of upfront costs. Allowing a student to create a VM and run it for the two hours they need it with a minimal charge behind it. 
 
@@ -357,7 +360,7 @@ Teams became the major driving force behind communication for this semester. We'
 
 A ticketing system was used within the Devop's group in order to communicate and orchestrate long term group projects. These jobs can then be joined by any students interested. The ticket page allows you to attach certain documents that might be relevant as well as comment directly about the task. Due to its Windows integration, this could be used to create calendar notifications for those involved, ensuring everyone knew what was happening. A lot of jobs ended up dying in this ticketing screen. Tasks that no one individually wanted to take on, or ones that were so long term they simply became forgotten. The D312 task was a good example of this as it wasn't uncommon for it to not get done for weeks at a time despite having all of the previously mentioned. This goes to show that we're not able to rely purely on technology for communication and arranging jobs and that in person stand-up meetings can not be circumnavigated. 
 
-[TicketingSystem.png]
+![alt text](https://i.imgur.com/2CWAJKH.png "Ticketing System")
 
 Specifically during the latter half of the semester, during the Databases transfer work, we went through a large amount of meetings with both Rob and our client, Krissi. As the task we had at the time was to discover a solution for the transfer, these became a molding of ideas. We'd go research individually, compile what we found out, discuss with a higher up and then repeat with more focused research. Through this process we were able to gradually evolve our ideas until they were specifically matched for the task at hand. This went for a lesser extent for daily stand-up meetings as they would focus our work exactly it was needed.
 
